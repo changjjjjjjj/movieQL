@@ -1,7 +1,9 @@
+import { getMovies } from "./db";
+
 const resolvers = {
     Query: {
-        name: () => "nicolas"
-    }
+        getMovies: (_, { rating, limit }) => getMovies(limit, rating),
+    },
 };
 
 export default resolvers;

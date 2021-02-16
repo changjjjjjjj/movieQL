@@ -1,15 +1,17 @@
 {
-  "name": "GraphQL_movie_API",
-  "version": "1.0.0",
-  "description": "Movie API with GraphQL",
-  "main": "index.js",
-  "repository": "https://github.com/changjjjjjjj/movieQL",
-  "author": "changjjjjjjjj",
-  "license": "MIT",
-  "dependencies": {
-    "graphql-yoga": "^1.18.3"
-  },
-  "scripts":{
-    "start": "nodemon --exec babel-node index.js"
-  }
+    "name": "GraphQL_movie_API",
+    "version": "1.0.0",
+    "description": "Movie API with GraphQL",
+    "main": "index.js",
+    "repository": "https://github.com/changjjjjjjj/movieQL",
+    "author": "changjjjjjjjj",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "graphql-yoga": "^1.18.3",
+        "node-fetch": "^2.6.1"
+    },
+    "scripts": {
+        "start": "nodemon --exec babel-node index.js"
+    }
 }
