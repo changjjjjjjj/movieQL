@@ -6,6 +6,8 @@ const server = new GraphQLServer({
     id: Int!
     title: String!
     rating: Float
+    year: Int!
+    summary: String
     description_intro: String
     language: String
     medium_cover_image: String
